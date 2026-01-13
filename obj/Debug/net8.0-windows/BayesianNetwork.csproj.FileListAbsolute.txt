@@ -1,0 +1,16 @@
+C:\Users\Calin\Desktop\IA\BayesianNetwork\BayesianNetwork\obj\Debug\net8.0-windows\BayesianNetwork.Form1.resources
+C:\Users\Calin\Desktop\IA\BayesianNetwork\BayesianNetwork\obj\Debug\net8.0-windows\BayesianNetwork.csproj.GenerateResource.cache
+C:\Users\Calin\Desktop\IA\BayesianNetwork\BayesianNetwork\obj\Debug\net8.0-windows\BayesianNetwork.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Calin\Desktop\IA\BayesianNetwork\BayesianNetwork\obj\Debug\net8.0-windows\BayesianNetwork.AssemblyInfoInputs.cache
+C:\Users\Calin\Desktop\IA\BayesianNetwork\BayesianNetwork\obj\Debug\net8.0-windows\BayesianNetwork.AssemblyInfo.cs
+C:\Users\Calin\Desktop\IA\BayesianNetwork\BayesianNetwork\obj\Debug\net8.0-windows\BayesianNetwork.csproj.CoreCompileInputs.cache
+C:\Users\Calin\Desktop\IA\BayesianNetwork\BayesianNetwork\bin\Debug\net8.0-windows\BayesianNetwork.exe
+C:\Users\Calin\Desktop\IA\BayesianNetwork\BayesianNetwork\bin\Debug\net8.0-windows\BayesianNetwork.deps.json
+C:\Users\Calin\Desktop\IA\BayesianNetwork\BayesianNetwork\bin\Debug\net8.0-windows\BayesianNetwork.runtimeconfig.json
+C:\Users\Calin\Desktop\IA\BayesianNetwork\BayesianNetwork\bin\Debug\net8.0-windows\BayesianNetwork.dll
+C:\Users\Calin\Desktop\IA\BayesianNetwork\BayesianNetwork\bin\Debug\net8.0-windows\BayesianNetwork.pdb
+C:\Users\Calin\Desktop\IA\BayesianNetwork\BayesianNetwork\obj\Debug\net8.0-windows\BayesianNetwork.dll
+C:\Users\Calin\Desktop\IA\BayesianNetwork\BayesianNetwork\obj\Debug\net8.0-windows\refint\BayesianNetwork.dll
+C:\Users\Calin\Desktop\IA\BayesianNetwork\BayesianNetwork\obj\Debug\net8.0-windows\BayesianNetwork.pdb
+C:\Users\Calin\Desktop\IA\BayesianNetwork\BayesianNetwork\obj\Debug\net8.0-windows\BayesianNetwork.genruntimeconfig.cache
+C:\Users\Calin\Desktop\IA\BayesianNetwork\BayesianNetwork\obj\Debug\net8.0-windows\ref\BayesianNetwork.dll
