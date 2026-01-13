@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
@@ -100,5 +100,35 @@ namespace BayesianInference
             double sum = pTrue + pFalse;
             return new double[] { pTrue / sum, pFalse / sum };
         }
+
+        public static double EnumerateAll(List<Node> vars, Dictionary<string, bool> e)
+        {
+            if (vars.Count == 0) return 1.0;
+
+            var Y = vars[0];
+            var rest = vars.Skip(1).ToList();
+
+            if (e.ContainsKey(Y.Name))
+            {
+                double probY = Y.GetProbability(e[Y.Name], e);
+                return probY * EnumerateAll(rest, e);
+            }
+            else
+            {
+
+                var eTrue = new Dictionary<string, bool>(e);
+                eTrue[Y.Name] = true;
+                double term1 = Y.GetProbability(true, eTrue) * EnumerateAll(rest, eTrue);
+
+                var eFalse = new Dictionary<string, bool>(e);
+                eFalse[Y.Name] = false;
+                double term2 = Y.GetProbability(false, eFalse) * EnumerateAll(rest, eFalse);
+
+                return term1 + term2;
+            }
+        }
     }
+
+   
 }
+
