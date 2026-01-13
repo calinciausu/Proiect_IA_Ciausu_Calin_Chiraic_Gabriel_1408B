@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
-using BayesianInference; // Ensure this matches the namespace where your Logic class is
+using BayesianInference; 
 
 namespace BayesianNetwork
 {
@@ -15,7 +15,6 @@ namespace BayesianNetwork
             InitializeComponent();
             bn = new BayesianInference.BayesianNet();
 
-            // Wire up the buttons manually (since we didn't do it in the designer)
             this.btnLoadFile.Click += new EventHandler(this.btnLoadFile_Click);
             this.btnCalculate.Click += new EventHandler(this.btnCalculate_Click);
 
@@ -83,8 +82,6 @@ namespace BayesianNetwork
                     if (cmbQueryNode.Items.Count > 0)
                     {
                         cmbQueryNode.SelectedIndex = 0;
-                        // Acest lucru va declanșa automat evenimentul cmbQueryNode_SelectedIndexChanged
-                        // care va bloca rândul corespunzător în tabel.
                     }
                 }
                 catch (Exception ex)
